@@ -346,6 +346,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = resources/TwitterText.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.twitter.TwitterText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -365,6 +366,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = resources/TwitterText.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.twitter.TwitterText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
