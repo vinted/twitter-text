@@ -7,22 +7,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "twitter-text",
+    name: "TwitterTextName",
     platforms: [
         .iOS(.v13)
     ],
     products: [
-        .library(name: "TwitterText", targets: ["TwitterText"])
+        .library(name: "TwitterTextLib", targets: ["TwitterTextTarget"])
     ],
     targets: [
         .target(
-            name: "TwitterText",
+            name: "TwitterTextTarget",
             path: "objc/lib"
-            // resources: [
-            //         .copy("config/v1.json"),
-            //         .copy("config/v2.json"),
-            //         .copy("config/v3.json"),
-            // ]
         )
     ]
 )
