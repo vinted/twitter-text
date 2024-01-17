@@ -12,13 +12,23 @@ let package = Package(
         .iOS(.v13)
     ],
     products: [
-        .library(name: "TwitterText", targets: ["TwitterText"])
+        .library(
+            name: "TwitterTextDynamic",
+            type: .dynamic,
+            targets: ["VGHtmlParser"]
+        ),
+        .library(
+            name: "TwitterTextStatic",
+            type: .static,
+            targets: ["VGHtmlParser"]
+        )
     ],
     targets: [
         .target(
             name: "TwitterText",
             path: "objc/lib",
-            sources: ["."]
+            sources: ["."],
+            publicHeadersPath: "."
         )
     ]
 )
