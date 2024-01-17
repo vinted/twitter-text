@@ -17,9 +17,7 @@ let package = Package(
     targets: [
         .target(
             name: "TwitterText",
-            path: "objc/lib",
-            sources: ["."],
-            publicHeadersPath: "Public"
+            path: "objc/lib"
             // resources: [
             //         .copy("config/v1.json"),
             //         .copy("config/v2.json"),
