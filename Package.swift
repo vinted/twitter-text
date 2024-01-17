@@ -28,7 +28,7 @@ let package = Package(
             name: "TwitterText",
             path: "objc/lib",
             sources: ["."],
-            publicHeadersPath: "."
+            publicHeadersPath: "." 
         )
     ]
 )
