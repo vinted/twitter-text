@@ -15,12 +15,12 @@ let package = Package(
         .library(
             name: "TwitterTextDynamic",
             type: .dynamic,
-            targets: ["VGHtmlParser"]
+            targets: ["TwitterText"]
         ),
         .library(
             name: "TwitterTextStatic",
             type: .static,
-            targets: ["VGHtmlParser"]
+            targets: ["TwitterText"]
         )
     ],
     targets: [
