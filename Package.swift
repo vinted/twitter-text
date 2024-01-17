@@ -7,16 +7,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "TwitterTextName",
+    name: "TwitterText",
     platforms: [
         .iOS(.v13)
     ],
     products: [
-        .library(name: "TwitterTextLib", targets: ["TwitterTextTarget"])
+        .library(name: "TwitterText", targets: ["TwitterText"])
     ],
     targets: [
         .target(
-            name: "TwitterTextTarget",
+            name: "TwitterText",
             path: "objc/lib"
         )
     ]
