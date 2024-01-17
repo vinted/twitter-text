@@ -13,13 +13,13 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "TwitterTextDynamic",
-            type: .dynamic,
-            targets: ["TwitterText"]
-        ),
+        //     name: "TwitterTextDynamic",
+        //     type: .dynamic,
+        //     targets: ["TwitterText"]
+        // ),
         .library(
-            name: "TwitterTextStatic",
-            type: .static,
+            name: "TwitterText",
+            // type: .static,
             targets: ["TwitterText"]
         )
     ],
