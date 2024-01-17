@@ -24,7 +24,7 @@ let package = Package(
         ),
         .target(
             name: "IFUnicodeURL",
-            path: "objc/ThirdParty/IFUnicodeURL/IFUnicodeURL",
+            path: "objc/ThirdParty/IFUnicodeURL/",
             publicHeadersPath: "."
         )
     ]
