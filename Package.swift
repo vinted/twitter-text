@@ -17,7 +17,15 @@ let package = Package(
     targets: [
         .target(
             name: "TwitterTextTarget",
+            dependencies: [
+                .target(name: "IFUnicodeURL")
+            ],
             path: "objc/lib"
+        ),
+        .target(
+            name: "IFUnicodeURL",
+            path: "objc/lib/ThirdParty/IFUnicodeURL/IFUnicodeURL",
+            publicHeadersPath: "."
         )
     ]
 )
