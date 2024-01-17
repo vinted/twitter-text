@@ -17,7 +17,8 @@ let package = Package(
     targets: [
         .target(
             name: "TwitterText",
-            path: "objc/lib"
+            path: "objc/lib",
+            sources: ["."]
         )
     ]
 )
