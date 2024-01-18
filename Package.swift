@@ -8,11 +8,8 @@ import PackageDescription
 
 let package = Package(
     name: "TwitterText",
-    platforms: [
-        .iOS(.v13)
-    ],
     products: [
-        .library(
+        // .library(
         //     name: "TwitterTextDynamic",
         //     type: .dynamic,
         //     targets: ["TwitterText"]
@@ -26,9 +23,9 @@ let package = Package(
     targets: [
         .target(
             name: "TwitterText",
+            dependencies: [],
             path: "objc/lib",
-            sources: ["."],
-            publicHeadersPath: "." 
+            publicHeadersPath: "" 
         )
     ]
 )
