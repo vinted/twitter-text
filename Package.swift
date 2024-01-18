@@ -7,7 +7,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "TwitterText",
+    name: "TwitterText2",
     products: [
         // .library(
         //     name: "TwitterTextDynamic",
